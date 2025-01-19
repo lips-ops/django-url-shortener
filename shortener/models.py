@@ -9,6 +9,7 @@ class URL(models.Model):
     original_url = models.URLField(max_length=500)
     short_url = models.CharField(max_length=10, unique=True)
     created_at = models.DateTimeField(default=now)
+    password = models.CharField(max_length=100, null=True, blank=True)
     expires_at = models.DateTimeField(default=default_expiry)
 
     def __str__(self):
