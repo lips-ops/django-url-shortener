@@ -14,5 +14,5 @@ track the logs
 `GET /api/analytics/<short_url>/`
 
 ## for installation
-
+clone git repositry  https://github.com/lips-ops/django-url-shortener
 pip install -r requirements.txt
